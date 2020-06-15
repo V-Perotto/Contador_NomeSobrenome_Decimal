@@ -38,61 +38,115 @@ x = 24
 y = 25
 z = 26
 
+aa = '1'
+bb = '2'
+cc = '3'
+dd = '4'
+ee = '5'
+ff = '6'
+gg = '7'
+hh = '8'
+ii = '9'
+jj = '10'
+kk = '11'
+ll = '12'
+mm = '13'
+nn = '14'
+oo = '15'
+pp = '16'
+qq = '17'
+rr = '18'
+ss = '19'
+tt = '20'
+uu = '21'
+vv = '22'
+ww = '23'
+xx = '24'
+yy = '25'
+zz = '26'
+
 sumTotal = 0
+nameNum = ''
 
 for word in nameSur:
     if word == 'a' or word == 'A':
-        sumTotal = 0 + a
+        sumTotal = sumTotal + a
+        nameNum = nameNum + aa
     elif word == 'b' or word == 'B':
-        sumTotal = 0 + b
+        sumTotal = sumTotal + b
+        nameNum = nameNum + bb
     elif word == 'c' or word == 'C':
-        sumTotal = 0 + c
+        sumTotal = sumTotal + c
+        nameNum = nameNum + cc
     elif word == 'd' or word == 'D':
-        sumTotal = 0 + d
+        sumTotal = sumTotal + d
+        nameNum = nameNum + dd
     elif word == 'e' or word == 'E':
-        sumTotal = 0 + e
+        sumTotal = sumTotal + e
+        nameNum = nameNum + ee
     elif word == 'f' or word == 'F':
-        sumTotal = 0 + f
+        sumTotal = sumTotal + f
+        nameNum = nameNum + ff
     elif word == 'g' or word == 'G':
-        sumTotal = 0 + g
+        sumTotal = sumTotal + g
+        nameNum = nameNum + gg
     elif word == 'h' or word == 'H':
-        sumTotal = 0 + h
+        sumTotal = sumTotal + h
+        nameNum = nameNum + hh
     elif word == 'i' or word == 'I':
-        sumTotal = 0 + i
+        sumTotal = sumTotal + i
+        nameNum = nameNum + ii
     elif word == 'j' or word == 'J':
-        sumTotal = 0 + j
+        sumTotal = sumTotal + j
+        nameNum = nameNum + jj
     elif word == 'k' or word == 'K':
-        sumTotal = 0 + k
+        sumTotal = sumTotal + k
+        nameNum = nameNum + kk
     elif word == 'l' or word == 'L':
-        sumTotal = 0 + l
+        sumTotal = sumTotal + l
+        nameNum = nameNum + ll
     elif word == 'm' or word == 'M':
-        sumTotal = 0 + m
+        sumTotal = sumTotal + m
+        nameNum = nameNum + mm
     elif word == 'n' or word == 'N':
-        sumTotal = 0 + n
+        sumTotal = sumTotal + n
+        nameNum = nameNum + nn
     elif word == 'o' or word == 'O':
-        sumTotal = 0 + o
+        sumTotal = sumTotal + o
+        nameNum = nameNum + oo
     elif word == 'p' or word == 'P':
-        sumTotal = 0 + p
+        sumTotal = sumTotal + p
+        nameNum = nameNum + pp
     elif word == 'q' or word == 'Q':
-        sumTotal = 0 + q
+        sumTotal = sumTotal + q
+        nameNum = nameNum + qq
     elif word == 'r' or word == 'R':
-        sumTotal = 0 + r
+        sumTotal = sumTotal + r
+        nameNum = nameNum + rr
     elif word == 's' or word == 'S':
-        sumTotal = 0 + s
+        sumTotal = sumTotal + s
+        nameNum = nameNum + ss
     elif word == 't' or word == 'T':
-        sumTotal = 0 + t
+        sumTotal = sumTotal + t
+        nameNum = nameNum + tt
     elif word == 'u' or word == 'U':
-        sumTotal = 0 + u
+        sumTotal = sumTotal + u
+        nameNum = nameNum + uu
     elif word == 'v' or word == 'V':
-        sumTotal = 0 + v
+        sumTotal = sumTotal + v
+        nameNum = nameNum + vv
     elif word == 'w' or word == 'W':
-        sumTotal = 0 + w
+        sumTotal = sumTotal + w
+        nameNum = nameNum + ww
     elif word == 'x' or word == 'X':
-        sumTotal = 0 + x
+        sumTotal = sumTotal + x
+        nameNum = nameNum + xx
     elif word == 'y' or word == 'Y':
-        sumTotal = 0 + y
+        sumTotal = sumTotal + y
+        nameNum = nameNum + yy
     elif word == 'z' or word == 'Z':
-        sumTotal = 0 + z
+        sumTotal = sumTotal + z
+        nameNum = nameNum + zz
     elif word == ' ':
         pass
     else:
@@ -105,6 +159,7 @@ for word in nameSur:
     if word == " ":
         spaces += 1
 
-print("Tem", letters, "letras")
-print("Tem", spaces, "espacos")
-print()
+print("\nTem", letters, "letras.")
+print("Tem", spaces, "espacos.")
+print("A soma de suas letras sao", sumTotal, "no total.")
+print("Nome numerico sem soma de numeros:", nameNum)
